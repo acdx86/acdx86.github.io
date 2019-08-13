@@ -5,20 +5,28 @@
 }
 
 html {
+  height: 100%;
   background-image: url("images/stars.gif");
 }
 
 body {
-  margin: 0;
+  position: fixed;
+  height: 600px;
+  width: 800px;
+  margin-left: 12px;
+  margin-top: 12px;
+  padding-right: 20px;
+  background-color: black;
+  overflow-y: scroll;
+  border: 5px groove white;
   color: lime;
   font-family: monospace;
 }
 
 /* Style the side navigation */
 nav {
-  height: 590px;
   width: 125px;
-  position: fixed;
+  height: 590px;
   background-color: red;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -41,13 +49,6 @@ nav a:hover {
 
 /* Style the content */
 main {
-  position: fixed;
-  height: 600px;
-  width: 800px;
-  margin-left: 12px;
-  margin-top: 12px;
-  padding-right: 20px;
-  background-color: black;
-  overflow-y: scroll;
-  border: 5px groove white;
+  float: left;
+  width: 500px;
 }
