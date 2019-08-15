@@ -1,0 +1,28 @@
+/* netscape.css */
+
+#window {
+  border: 4px solid transparent;
+  border-image: url("../images/netscape/border.png") 4 round;
+  position: absolute;
+}
+
+#titlebar {
+  background: linear-gradient(to right, #000080, #1084d0);
+}
+
+#menubar, #toolbar, #addressbar {
+  border-bottom: 1px solid #808080;
+}
+
+#menubar, #toolbar, #addressbar, #bookmarksbar, #statusbar {
+  background-color: #c0c0c0;
+}
+
+#toolbar, #addressbar, #bookmarksbar {
+  border-top: 1px solid #ffffff;
+}
+
+#content {
+  border: 2px solid transparent;
+  border-image: url("../images/netscape/border2.png") 2 round;
+}

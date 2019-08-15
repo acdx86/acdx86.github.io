@@ -1,0 +1,34 @@
+/* layout.css */
+
+* {
+  box-sizing: border-box;
+}
+
+#window {
+  width: 800px;
+  height: 600px;
+}
+
+#titlebar, #statusbar {
+  height: 18px;
+}
+
+#menubar {
+  height: 21px;
+}
+
+#toolbar {
+  height: 44px;
+}
+
+#addressbar {
+  height: 23px;
+}
+
+#bookmarksbar {
+  height: 22px;
+}
+
+#content {
+  height: 446px;
+}
