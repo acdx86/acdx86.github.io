@@ -1,0 +1,13 @@
+/* main.css */
+
+body {
+  background-color: black;
+  font-family: monospace;
+  color: lime;
+  padding: 10px;
+  overflow: scroll;
+}
+
+iframe {
+  border: none;
+}

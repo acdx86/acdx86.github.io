@@ -1,5 +1,0 @@
-<img id="nscommicon" src="images/netscape/titlebar/nscommicon.png" alt="Netscape Communicator Icon" height="16" width="16">
-<p id="title"></p>
-<img id="closebutton" src="images/netscape/titlebar/closebutton.png" alt="Close Button" height="14" width="16">
-<img id="maxbutton" src="images/netscape/titlebar/maxbutton.png" alt="Maximize Button" height="14" width="16">
-<img id="minbutton" src="images/netscape/titlebar/minbutton.png" alt="Minimize Button" height="14" width="16">

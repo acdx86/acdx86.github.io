@@ -4,38 +4,3 @@ html {
   background-image: url("../images/backgrounds/stars.gif");
   /*background-color: #008080;*/
 }
-
-#nav, #main {
-  height: 444px;
-  padding: 10px;
-  overflow-y: scroll;
-  overflow-x: scroll;
-}
-
-#nav {
-  float: left;
-  width: 125px;
-  background-color: red;
-}
-
-#main {
-  margin-left: 125px;
-  background-color: black;
-  font-family: monospace;
-  color: lime;
-}
-
-.blink {
-  animation: 1s linear infinite condemned_blink_effect;
-}
-@keyframes condemned_blink_effect {
-  0% {
-    visibility: hidden;
-  }
-  50% {
-    visibility: hidden;
-  }
-  100% {
-    visibility: visible;
-  }
-}

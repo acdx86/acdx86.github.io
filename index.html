@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/theme.css">
     <script src="js/drag.js" type="text/javascript" defer></script>
   </head>
-  <body onload="title()";>
+  <body>
     <div id="window">
       <div id="titlebar" oncontextmenu="return false">
         <img id="nscommicon" src="images/netscape/titlebar/nscommicon.png" alt="Netscape Communicator Icon" height="16" width="16">
@@ -36,50 +36,16 @@
       <div id="bookmarksbar">
       </div>
       <div id="content">
-        <div id="nav">
-          <nav>
-            <a href="about/index.html">About Me</a>
-            <a href="">Favorites</a>
-            <a href="">Projects</a>
-            <a href="">Links</a>
-          </nav>
-        </div>
-        <div id="main">
-          <header>
-            <h1>Welcome to the Official Homepage of acdx86!<img src="images/home/trevor.png" alt="Trevor" height="66" width="36"></h1>
-          </header>
-          <main>
-            <article>
-              <p>Here you will find info about things I like and my personal projects.</p>
-              <br>
-              <hr>
-            </article>
-            <article>
-              <p>
-                This website is currently under construction but new updates are posted all the time! Make sure you come back every once in a while to see what I've got cookin'!<br><img src="images/home/skull.gif" alt="Skull" height="75" width="100"><br>
-                HTML: <progress value="100" max="100"></progress><br>
-                CSS: <progress value="100" max="100"></progress><br>
-                <b>UPDATE!!</b> Netscape GUI CSS: <progress value="30" max="100"></progress></br>
-                JavaScript: <progress value="10" max="100"></progress>
-              </p>
-              <hr>
-            </article>
-          </main>
-          <footer>
-            <p>Copyright &copy; 2019 acdx86</p>
-            <p>E-mail: <a href="mailto:acdx86@gmail.com">acdx86@gmail.com</a></p>
-            <p>IRC:</p>
-            <p><b>&#93;<span class="blink">&#x2591;</span></b></p>
-          </footer>
-        </div>
+        <iframe id="nav" src="html/navbar.html"></iframe> 
+        <iframe name="main" id="main" src="html/main.html"></iframe>
       </div>
       <div id="statusbar">
       </div>
     </div>
     <script>
-      function title() {
-        var x = document.title; 
-        document.getElementById("title").innerHTML = x + " - Netscape"; 
+      document.getElementById("main").onload = function() {
+      var iframeTitle = document.getElementById("main").contentDocument.title;
+      document.getElementById("title").innerHTML = iframeTitle + " - Netscape";
       }
     </script>
     <!--
