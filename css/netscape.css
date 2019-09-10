@@ -1,10 +1,10 @@
 /* netscape.css */
 
 /*Font*/
-/*@font-face {
+@font-face {
   font-family: msSansSerif;
   src: url("../fonts/msSansSerif.ttf");
-}*/
+}
 
 /*Borders and Backgrounds*/
 #window {
@@ -47,7 +47,7 @@
 }
 #title{
   margin-left: 3px;
-  font: bold 12px sans-serif;
+  font: bold 13px msSansSerif;
   color: white;
 }
 #closebutton {
@@ -59,8 +59,8 @@
   clear: both;
   margin-top: 0px;
   margin-left: 2px;
-  font-family: sans-serif;
-  font-size: 12px;
+  font-family: msSansSerif;
+  font-size: 13px;
   -moz-user-select: none;
 }
 .underline {
