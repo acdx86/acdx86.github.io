@@ -3,9 +3,9 @@ dragElement(document.getElementById("window"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementById("titlebar")) {
+  if (document.getElementById("title")) {
     // if present, the header is where you move the DIV from:
-    document.getElementById("titlebar").onmousedown = dragMouseDown;
+    document.getElementById("title").onmousedown = dragMouseDown;
   } else {
     // otherwise, move the DIV from anywhere inside the DIV:
     elmnt.onmousedown = dragMouseDown;
