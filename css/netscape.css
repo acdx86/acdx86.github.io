@@ -61,10 +61,12 @@
 #menu {
   clear: both;
   margin-top: 0px;
-  margin-left: 2px;
+  margin-left: 6px;
+  padding-top: 2px;
   font-family: "msSansSerif";
-  font-size: 13px;
+  font-size: 11px;
   -moz-user-select: none;
+  word-spacing: 7px;
 }
 .underline {
   text-decoration: underline;
