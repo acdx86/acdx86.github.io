@@ -1,12 +1,14 @@
-/* projects.css */
+/* footer.css */
 
 body {
   background-color: black;
   font-family: monospace;
+  font-size: 9px;
   color: lime;
+  overflow: hidden;
 }
 
-/*.blink {
+*.blink {
   animation: 1s linear infinite condemned_blink_effect;
 }
 @keyframes condemned_blink_effect {
@@ -19,4 +21,4 @@ body {
   100% {
     visibility: visible;
   }
-}*/
+}

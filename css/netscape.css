@@ -2,8 +2,8 @@
 
 /*Font*/
 @font-face {
-  font-family: msSansSerif;
-  src: url("../fonts/msSansSerif.ttf");
+  font-family: "msSansSerif";
+  src: url("../fonts/msSansSerif.ttf") format("truetype");
 }
 
 /*Borders and Backgrounds*/
@@ -47,7 +47,7 @@
 }
 #title{
   margin-left: 3px;
-  font: bold 13px msSansSerif;
+  font: bold 13px "msSansSerif";
   color: white;
 }
 #closebutton {
@@ -59,7 +59,7 @@
   clear: both;
   margin-top: 0px;
   margin-left: 2px;
-  font-family: msSansSerif;
+  font-family: "msSansSerif";
   font-size: 13px;
   -moz-user-select: none;
 }

@@ -11,3 +11,11 @@ body {
 iframe {
   border: none;
 }
+
+ul {
+  list-style-type: katakana;
+}
+
+canvas {
+  border: 4px solid #c0c0c0;
+}
