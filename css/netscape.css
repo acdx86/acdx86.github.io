@@ -6,6 +6,11 @@
   src: url("../fonts/mssansserif.ttf") format("truetype");
 }
 
+/*Audio Players*/
+#audio {
+  float: right;
+}
+
 /*Borders and Backgrounds*/
 #window {
   border: 4px solid transparent;
