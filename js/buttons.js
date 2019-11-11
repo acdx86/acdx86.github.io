@@ -2,7 +2,10 @@
 
 //Close
 function mouseDownClose() {
-  document.getElementById("closebutton").src="images/netscape/titlebar/closepress.png";
+  e = window.event;
+  if (e.button == 0) {
+    document.getElementById("closebutton").src="images/netscape/titlebar/closepress.png";
+  }
 }
 function mouseUpClose() {
   document.getElementById("closebutton").src="images/netscape/titlebar/closebutton.png";
@@ -10,7 +13,10 @@ function mouseUpClose() {
 
 //Min
 function mouseDownMin() {
-  document.getElementById("minbutton").src="images/netscape/titlebar/minpress.png";
+  e = window.event;
+  if (e.button == 0) {
+    document.getElementById("minbutton").src="images/netscape/titlebar/minpress.png";
+  }
 }
 function mouseUpMin() {
   document.getElementById("minbutton").src="images/netscape/titlebar/minbutton.png";
@@ -18,7 +24,10 @@ function mouseUpMin() {
 
 //Max
 function mouseDownMax() {
-  document.getElementById("maxbutton").src="images/netscape/titlebar/maxpress.png";
+  e = window.event;
+  if (e.button == 0) {
+    document.getElementById("maxbutton").src="images/netscape/titlebar/maxpress.png";
+  }
 }
 function mouseUpMax() {
   document.getElementById("maxbutton").src="images/netscape/titlebar/maxbutton.png";

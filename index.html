@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/netscape.css">
     <link rel="stylesheet" type="text/css" href="css/theme.css">
     <script src="js/sound.js" type="text/javascript"></script>
+    <script src="js/buttons.js" type="text/javascript"></script>
     <script src="js/drag.js" type="text/javascript" defer></script>
   </head>
   <body>
@@ -26,9 +27,9 @@
       <div id="titlebar" oncontextmenu="return false">
         <img id="nscommicon" src="images/netscape/titlebar/nscommicon.png" alt="Netscape Communicator Icon" height="16" width="16">
         <p id="title"></p>
-        <img id="closebutton" src="images/netscape/titlebar/closebutton.png" alt="Close Button" height="14" width="16">
-        <img id="maxbutton" src="images/netscape/titlebar/maxbutton.png" alt="Maximize Button" height="14" width="16">
-        <img id="minbutton" src="images/netscape/titlebar/minbutton.png" alt="Minimize Button" height="14" width="16">
+        <img id="closebutton" src="images/netscape/titlebar/closebutton.png" alt="Close Button" height="14" width="16" title="Close" onmousedown="mouseDownClose()" onmouseleave="mouseUpClose()" onmouseup="mouseUpClose()">
+        <img id="maxbutton" src="images/netscape/titlebar/maxbutton.png" alt="Maximize Button" height="14" width="16" title="Maximize" onmousedown="mouseDownMax()" onmouseleave="mouseUpMax()" onmouseup="mouseUpMax()">
+        <img id="minbutton" src="images/netscape/titlebar/minbutton.png" alt="Minimize Button" height="14" width="16" title="Minimize" onmousedown="mouseDownMin()" onmouseleave="mouseUpMin()" onmouseup="mouseUpMin()">
       </div>
       <div id="menubar">
         <p id="menu">

@@ -9,13 +9,8 @@
   </head>
   <body>
     <p>TEST</p>
-    <audio id="startAudio">
-      <source src="media/startup.wav" type="audio/wav">
-    </audio>
-    <audio id="dialupAudio">
-      <source src="media/dialup.ogg" type="audio/ogg">
-    </audio>
-    <button onclick="playStart()" type="button">Start</button>
-    <button onclick="playDialup()" type="button">Dial-up</button>
+      <img id="closebutton" src="images/netscape/titlebar/closebutton.png" alt="Close Button" height="14" width="16" title="Close" onmousedown="mouseDownClose()" onmouseup="mouseUpClose()">
+      <img id="maxbutton" src="images/netscape/titlebar/maxbutton.png" alt="Maximize Button" height="14" width="16" title="Maximize" onmousedown="mouseDownMax()" onmouseup="mouseUpMax()">
+      <img id="minbutton" src="images/netscape/titlebar/minbutton.png" alt="Minimize Button" height="14" width="16" title="Minimize" onmousedown="mouseDownMin()" onmouseup="mouseUpMin()">
   </body>
 </html>
