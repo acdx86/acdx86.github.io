@@ -32,3 +32,20 @@ function mouseDownMax() {
 function mouseUpMax() {
   document.getElementById("maxbutton").src="images/netscape/titlebar/maxbutton.png";
 }
+
+//CHANGE BACKGROUDNS
+function changeBackground() {
+  var x = document.getElementById("backgroundSelect").value;
+  if (x == "Classic") {
+    document.body.style.backgroundImage = "none"
+    document.body.style.backgroundColor = "#008080";
+  }
+  else if (x == "Clouds") {
+    document.body.style.backgroundImage = "url('images/backgrounds/clouds.jpg')";
+    document.body.style.backgroundSize = "cover";
+  }
+  else if (x == "Space") {
+    document.body.style.backgroundImage = "url('images/backgrounds/stars.gif')";
+    document.body.style.backgroundSize = "auto";
+  }
+}
