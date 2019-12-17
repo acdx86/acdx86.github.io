@@ -33,7 +33,7 @@ function mouseUpMax() {
   document.getElementById("maxbutton").src="images/netscape/titlebar/maxbutton.png";
 }
 
-//CHANGE BACKGROUDNS
+//CHANGE BACKGROUNDS
 function changeBackground() {
   var x = document.getElementById("backgroundSelect").value;
   if (x == "Classic") {
