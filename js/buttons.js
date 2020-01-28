@@ -5,6 +5,8 @@ function mouseDownClose() {
   e = window.event;
   if (e.button == 0) {
     document.getElementById("closebutton").src="images/netscape/titlebar/closepress.png";
+  } else {
+    document.getElementById("closebutton").src="images/netscape/titlebar/closebutton.png";
   }
 }
 function mouseUpClose() {
@@ -16,6 +18,8 @@ function mouseDownMin() {
   e = window.event;
   if (e.button == 0) {
     document.getElementById("minbutton").src="images/netscape/titlebar/minpress.png";
+  } else {
+    document.getElementById("minbutton").src="images/netscape/titlebar/minbutton.png";
   }
 }
 function mouseUpMin() {
@@ -27,6 +31,8 @@ function mouseDownMax() {
   e = window.event;
   if (e.button == 0) {
     document.getElementById("maxbutton").src="images/netscape/titlebar/maxpress.png";
+  } else {
+    document.getElementById("maxbutton").src="images/netscape/titlebar/maxbutton.png";
   }
 }
 function mouseUpMax() {
